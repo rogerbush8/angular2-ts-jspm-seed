@@ -1,4 +1,4 @@
-## Angular 2 Play with JSPM, TypeScript, System.js and gulp tasks
+## Angular 2 Play with JSPM, TypeScript, System.js
 
 ## Overview
 
