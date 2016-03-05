@@ -1,10 +1,19 @@
-## Angular 2 Play with jspm, typescript, system.js and gulp tasks
+## Angular 2 Play with JSPM, TypeScript, System.js and gulp tasks
 
-I used zanettin's original seed as a starting point.
+## Overview
+
+I used zanettin's original seed as a starting point.  I wanted to update everything and
+refine this seed for early dev purposes.  Unfortunately, the state of the libraries as
+of 3/5/16 is that they don't play well.  In particular, JSPM and TypeScript don't play
+well enough together.  Because of this, and due to the fact that bundling (and not
+incremental loading) are a reality, I'll put JSPM temporarily on the backburner.  It
+can be resurrected later when things play well.
+
+So a useful strategy, that works today is:  NPM + Angular2 beta8 + TypeScript 1.8 and
+some bundler (e.g. webpack).
 
 ## N.B.
 - As of 3/5/16, angular2 (beta8), jspm and Typescript do not play well together
-  - Price you pay for bleeding edge :)
   - Issue is Typescript does not yet have support for jspm-style module resolution.
     - Path mapping feature (not sure if this is workaround)
       - https://github.com/Microsoft/TypeScript/issues/5039
