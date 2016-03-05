@@ -3,7 +3,8 @@
 I used zanettin's original seed as a starting point.
 
 ## N.B.
-- Currently, angular2 (beta8), jspm and Typescript do not play well together
+- As of 3/5/16, angular2 (beta8), jspm and Typescript do not play well together
+  - Price you pay for bleeding edge :)
   - Issue is Typescript does not yet have support for jspm-style module resolution.
     - Path mapping feature (not sure if this is workaround)
       - https://github.com/Microsoft/TypeScript/issues/5039
